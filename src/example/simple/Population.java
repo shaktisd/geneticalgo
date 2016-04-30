@@ -1,3 +1,5 @@
+package example.simple;
+
 public class Population {
 
     Individual[] individuals;

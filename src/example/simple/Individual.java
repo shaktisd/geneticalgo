@@ -1,3 +1,5 @@
+package example.simple;
+
 public class Individual {
 
     static int defaultGeneLength = 64;

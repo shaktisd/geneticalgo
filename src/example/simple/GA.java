@@ -1,3 +1,5 @@
+package example.simple;
+
 public class GA {
 
     public static void main(String[] args) {

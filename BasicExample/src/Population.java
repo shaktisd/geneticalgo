@@ -1,5 +1,3 @@
-package org.geneticalgo;
-
 public class Population {
 
     Individual[] individuals;

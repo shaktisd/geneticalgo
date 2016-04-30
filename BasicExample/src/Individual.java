@@ -1,5 +1,3 @@
-package org.geneticalgo;
-
 public class Individual {
 
     static int defaultGeneLength = 64;

@@ -1,11 +1,9 @@
-package org.geneticalgo;
-
 public class GA {
 
     public static void main(String[] args) {
 
         // Set a candidate solution
-        FitnessCalc.setSolution("1111000000000000000000000000000000000000000000000000000000001111");
+        FitnessCalc.setSolution("1111000000000000000000000000000000100000000000000000000000001111");
 
         // Create an initial population
         Population myPop = new Population(500, true);
@@ -14,7 +12,7 @@ public class GA {
         int generationCount = 0;
         while (myPop.getFittest().getFitness() < FitnessCalc.getMaxFitness()) {
             generationCount++;
-            System.out.println("Generation: " + generationCount + " Fittest: " + myPop.getFittest().getFitness());
+            System.out.println("Generation: " + generationCount + " Fittest: " + myPop.getFittest().getFitness() + " value " + myPop.getFittest());
             myPop = Algorithm.evolvePopulation(myPop);
         }
         System.out.println("Solution found!");

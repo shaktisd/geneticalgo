@@ -1,5 +1,3 @@
-package org.geneticalgo;
-
 public class Algorithm {
 
     /* GA parameters */

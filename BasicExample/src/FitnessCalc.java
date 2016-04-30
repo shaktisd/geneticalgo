@@ -1,5 +1,3 @@
-package org.geneticalgo;
-
 public class FitnessCalc {
 
     static byte[] solution = new byte[64];

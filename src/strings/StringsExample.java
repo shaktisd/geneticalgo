@@ -114,6 +114,7 @@ public final class StringsExample
             System.out.printf("Generation %d: %s\n",
                               data.getGenerationNumber(),
                               data.getBestCandidate());
+            System.out.println(data);
         }
     }
 }
